@@ -1,0 +1,33 @@
+@font-face {
+  font-family: "Open Sans";
+  src: url("../fonts/OpenSans-Regular.woff") format("woff");
+  src: url("../fonts/OpenSans-Regular.woff") format("ttf");
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Open Sans";
+  src: url("../fonts/OpenSans-Bold.woff") format("woff");
+  src: url("../fonts/OpenSans-Bold.ttf") format("ttf");
+  font-style: normal;
+  font-weight: 700;
+}
+:root {
+  --article-title-color: #0f0d0e;
+  --article-text-color: #0f0d0e;
+  --article-author-color: #000000;
+  --article-date-color: #888888;
+  --article-tag-color: #b59f5b;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
