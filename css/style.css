@@ -16,6 +16,7 @@
   --nav-item-color: #ffffff;
 
   --article-title-color: #0f0d0e;
+  --aticle-title-hover-color: #b59f5b;
   --article-text-color: #0f0d0e;
   --article-author-color: #000000;
   --article-date-color: #888888;
@@ -212,11 +213,19 @@ a {
 
 .article__title {
   margin-bottom: 34px;
+}
 
+.article__link {
   font-weight: 700;
   font-size: 20px;
   color: var(--article-title-color);
   text-transform: uppercase;
+
+  transition: color 0.8s ease;
+}
+
+.article__link:hover {
+  color: var(--aticle-title-hover-color);
 }
 
 .article__under-title {
