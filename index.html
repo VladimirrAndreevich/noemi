@@ -245,7 +245,9 @@
                 <div class="post__content">
                   <div class="post__date">14 июня 2019</div>
                   <h3 class="post__title">
-                    10 мест, ради которых стоит проснуться
+                    <a class="post__link" href="#">
+                      10 мест, ради которых стоит проснуться
+                    </a>
                   </h3>
                 </div>
               </div>
@@ -257,7 +259,9 @@
                 />
                 <div class="post__content">
                   <div class="post__date">14 июня 2019</div>
-                  <h3 class="post__title">Йога для домашних</h3>
+                  <h3 class="post__title">
+                    <a class="post__link" href="#">Йога для домашних</a>
+                  </h3>
                 </div>
               </div>
 
@@ -266,7 +270,9 @@
                 <div class="post__content">
                   <div class="post__date">14 июня 2019</div>
                   <h3 class="post__title">
-                    как мы превратили классное место в балкон
+                    <a class="post__link" href="#"
+                      >как мы превратили классное место в балкон</a
+                    >
                   </h3>
                 </div>
               </div>
@@ -275,7 +281,9 @@
                 <img src="images/501.jpg" alt="Блюдо на столе" />
                 <div class="post__content">
                   <div class="post__date">14 июня 2019</div>
-                  <h3 class="post__title">Кулинарный подход к науке</h3>
+                  <h3 class="post__title">
+                    <a class="post__link" href="#">Кулинарный подход к науке</a>
+                  </h3>
                 </div>
               </div>
 
@@ -287,16 +295,85 @@
                 <div class="post__content">
                   <div class="post__date">14 июня 2019</div>
                   <h3 class="post__title">
-                    лучшие прически для распущенных волос
+                    <a class="post__link" href="#"
+                      >лучшие прически для распущенных волос</a
+                    >
                   </h3>
                 </div>
               </div>
             </div>
 
             <form class="aside__form" action="#" method="get">
-              <input type="text" class="aside__search" placeholder="Найти..." />
+              <input
+                type="text"
+                class="aside__search"
+                placeholder="Найти..."
+                required
+              />
               <button class="aside__submit" type="submit"></button>
             </form>
+          </div>
+
+          <div class="aside__mailing mailing">
+            <h2 class="aside__title">Рассылка</h2>
+            <form action="#" class="mailing__form">
+              <input
+                class="mailing__input"
+                type="mail"
+                placeholder="Ваш email-адрес"
+                required
+              />
+              <button class="mailing__send" type="submit">подписаться</button>
+            </form>
+          </div>
+
+          <div class="aside__tags">
+            <h2 class="aside__title">теги</h2>
+            <div class="aside__tags-wrapper">
+              <div class="tag">fashion</div>
+              <div class="tag">music</div>
+              <div class="tag">lifestyle</div>
+              <div class="tag">art</div>
+              <div class="tag">interior</div>
+              <div class="tag">travel</div>
+              <div class="tag">food</div>
+              <div class="tag">health</div>
+            </div>
+          </div>
+
+          <div class="aside__themes themes">
+            <h2 class="aside__title">темы</h2>
+            <ul class="themes__list">
+              <li class="theme">
+                <a href="#" class="theme__link">Красота</a
+                ><span class="theme__amount">12</span>
+              </li>
+
+              <li class="theme">
+                <a href="#" class="theme__link">Здоровье</a
+                ><span class="theme__amount">4</span>
+              </li>
+
+              <li class="theme">
+                <a href="#" class="theme__link">Образ жизни</a
+                ><span class="theme__amount">145</span>
+              </li>
+
+              <li class="theme">
+                <a href="#" class="theme__link">Музыка</a
+                ><span class="theme__amount">28</span>
+              </li>
+
+              <li class="theme">
+                <a href="#" class="theme__link">Спорт</a
+                ><span class="theme__amount">62</span>
+              </li>
+
+              <li class="theme">
+                <a href="#" class="theme__link">Йога</a
+                ><span class="theme__amount">8</span>
+              </li>
+            </ul>
           </div>
         </aside>
       </div>
